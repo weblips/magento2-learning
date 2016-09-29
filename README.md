@@ -1,6 +1,5 @@
 Основные консольные команды magento2:
 bin/magento --list    // выводит список всех команд
-
 Чистка кеша:
 bin/magento cache:clean 
 rm -rf cache && rm -rf log && rm -rf page_cache && rm -rf view_preprocessed
