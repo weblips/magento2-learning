@@ -17,3 +17,21 @@ bin/magento indexer:reindex
 Создание учётной записи админа:
 bin/magento admin:user:create --admin-user="Weblips" --admin-password="ABC12345d" --admin-email="admin@test.com" --admin-firstname="Web" --admin-lastname="Lips"
 
+Инсталляция Magento 2:
+---------------------------------------------------------
+bin/magento setup:install  
+
+--db-host="localhost"  
+--db-name="magento2"  
+--db-user="root"  
+--db-password="root"  
+--base-url="http://magento2.local/"  
+--admin-user="admin"  
+--admin-password="admin2016"  
+--admin-email="test@test.com"  
+--admin-firstname="Name"  
+--admin-lastname="Lastname"
+
+bin/magento setup:static-content:deploy
+
+----------------------------------------------------------
